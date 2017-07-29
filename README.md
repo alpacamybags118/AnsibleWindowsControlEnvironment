@@ -44,7 +44,7 @@ A playbook defines action(s) that you would like to perform on a host. They are 
     - debug: var=ipconfig
  ```
  
- For more information about modules avaliable to use for windows, look here: http://shorty/ansiblewindows
+ For more information about modules avaliable to use for windows, look here: http://docs.ansible.com/ansible/latest/list_of_windows_modules.html
  
  ## Running the container
  Make sure your docker file, hosts file, windows.yml file, and playbook(s) are in the same directory. Run docker and execute the following command in Powershell:
